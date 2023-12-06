@@ -1,0 +1,17 @@
+{
+  "name": "user-service",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "dev": "bun index.ts",
+    "test": "jest --watchAll"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
